@@ -1,3 +1,9 @@
+=== Edit ===
+All credit to the original (header generator)[https://github.com/etcwilde/header-generator]
+
+I have merged all the files into one file such that it can be easily downloaded and placed into the project root or dev folder. 
+
+
 Source Code Header Generator
 
 Author: Evan Wilde 				<etcwilde@uvic.ca>
