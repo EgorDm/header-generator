@@ -1,24 +1,31 @@
-=== Edit ===
+# Header Generator
 All credit to the original (header generator)[https://github.com/etcwilde/header-generator]
 
 I have merged all the files into one file such that it can be easily downloaded and placed into the project root or dev folder. 
 
-
+## Installation
+* Download the script: 
+```curl https://raw.githubusercontent.com/EgorDm/header-generator/master/license.py --output license.py```
+* Make `templates` folder and put some templates in it.
+* Run the command (for usage see below)
+```
 Source Code Header Generator
 
 Author: Evan Wilde 				<etcwilde@uvic.ca>
 Start Date: April 6 2014
 Version: 0.1
+```
 
-=== Description ===
+##  Description
 
 This program will apply user templates to create uniform header documentation 
 for each source file specified.
 It uses the file extension to map to a given template file, 
 so it can support any language.
 
-=== Program Usage ===
+## Program Usage
 
+```
 usage: license.py [-h] [-u USERNAME] [-e EMAIL] [-t TEMPLATE_DIR] [--version] files [files ...]
 	-h: Help
 	-u: Specify a username for the copyright. This will require an email be passed as well.
@@ -67,9 +74,10 @@ TYPE
 INCTYPE
 	How external libraries are included in a source file.
 	e.g. for java it is "INCTYPE:import"
+```
 
-
-=== Template samples ===
+# Template samples
+```
 ------------------------------------------------------------------------------
 This example template is for "java" files.
 ------------------------------------------------------------------------------
@@ -111,3 +119,4 @@ TYPE:h
 ---END
 
 ------------------------------------------------------------------------------
+```
